@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http//:priiyaanshi.github.io/ReactProject/static/css/main.9177941f.css",
+    "main.js": "/http//:priiyaanshi.github.io/ReactProject/static/js/main.6e5d62e9.js",
+    "static/js/453.fba879b9.chunk.js": "/http//:priiyaanshi.github.io/ReactProject/static/js/453.fba879b9.chunk.js",
+    "index.html": "/http//:priiyaanshi.github.io/ReactProject/index.html",
+    "main.9177941f.css.map": "/http//:priiyaanshi.github.io/ReactProject/static/css/main.9177941f.css.map",
+    "main.6e5d62e9.js.map": "/http//:priiyaanshi.github.io/ReactProject/static/js/main.6e5d62e9.js.map",
+    "453.fba879b9.chunk.js.map": "/http//:priiyaanshi.github.io/ReactProject/static/js/453.fba879b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9177941f.css",
+    "static/js/main.6e5d62e9.js"
+  ]
+}
