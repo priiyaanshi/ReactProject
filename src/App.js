@@ -17,3 +17,6 @@ function App() {
 }
 
 export default App;
+
+// "webpack": "^5.92.1",
+// "webpack-cli": "^5.1.4"

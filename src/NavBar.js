@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './NavBar.css';
+import { createUser } from './ApiService';
 
 const Navbar = ({ addUser }) => {
     const [formVisible, setFormVisible] = useState(false);
-    const [user, setUser] = useState({ first_name: '', last_name: '', email: '' });
+    const [user, setUser] = useState({ first_name: '', last_name: '', email: '', avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'});
 
     //making the form visible when button is toggled
     const toggleForm = () => {
@@ -39,10 +40,11 @@ const Navbar = ({ addUser }) => {
     const handleSubmit = (event) => {
         event.preventDefault();
         addUser(user);
-        setUser({ first_name: '', last_name: '', email: '' });
+        setUser({ first_name: '', last_name: '', email: '', avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png' });
         setFormVisible(false);  
     };
 
+    //structure
     return (
         <nav className="navbar">
         <div className="navbar-brand">
