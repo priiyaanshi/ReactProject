@@ -1,0 +1,23 @@
+.floating-btn{
+    width: 3rem;
+    height: 3rem;
+    background: #cd7f7f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #222938;
+    font-size: 3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    transition: background 0.1s; 
+    cursor: pointer;
+}
+
+.floating-btn:hover{
+    background: #ddafaf;
+}
