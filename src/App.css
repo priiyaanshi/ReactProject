@@ -10,6 +10,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 

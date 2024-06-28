@@ -1,9 +1,10 @@
 
 import './App.css';
 import React from 'react';
-import User from './User';
-import UserList from './UserList';
-import Navbar from './NavBar';
+import User from './Components/User';
+import UserList from './Components/UserList';
+import Navbar from './Components/NavBar';
+import PopUp from './Components/PopUp';
 
 function App() {
   return (
@@ -12,8 +13,13 @@ function App() {
         <Navbar />
       </header>
       <UserList />
+      <PopUp/>
+
     </div>
   );
 }
 
 export default App;
+
+// "webpack": "^5.92.1",
+// "webpack-cli": "^5.1.4"
