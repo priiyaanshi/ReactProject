@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --heading-color: #c97373;
+  --highlight-color: #b07979;
+  --body-color: #b19090;
+  --background-color: #1b1b1b;
+  background: #1b1b1b;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+button{
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,72 @@
+.modal {
+  position: fixed;
+  z-index: 2;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background: transparent;
+  border: none;
+  padding: 2rem;
+  max-width: 40vw;
+  animation-name: animate-top;
+  animation-duration: 0.4s;
+}
+@keyframes animate-top {
+  from { opacity: 0; transform: translateY(-100px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.close-button {
+  color: var(--heading-color);
+  border: none;
+  background: transparent;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: var(--body-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form input {
+  margin-bottom: 10px;
+  padding: 0.75rem;
+  font-size: 1em;
+  background-color: #f7ddddd3;
+  border: 1px solid var(--heading-color);
+  border-radius: 4px;
+}
+
+.user-form input:focus {
+  background-color: #f4e8e8;
+  border: none;
+}
+
+.user-form button {
+  padding: 0.75rem;
+  background-color: var(--heading-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: var(--body-color);
+}
